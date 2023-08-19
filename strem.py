@@ -26,9 +26,6 @@ if Credit_History == 'Good Credit_History':
 else:
     Credit_History = 0
 
-#Applicants_Income = float(Applicants_Income)
-#LoanAmount = float(LoanAmount)
-
 # Create a button to perform prediction
 if st.button('Predict'):
     # Create a pandas DataFrame with user input
