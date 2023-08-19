@@ -1,6 +1,7 @@
 #!C:\Users\Lenovo\AppData\Local\Programs\Python\Python37-32\python.exe
 
 import pandas as pd
+pip install sklearn
 from sklearn.linear_model import LogisticRegression
 import numpy as np
 
@@ -107,5 +108,3 @@ import pickle
 warnings.filterwarnings("ignore")
 
 pickle.dump(logisticRegr,open('model.pkl','wb'))
-
-model = pickle.load(open('model.pkl','rb'))
