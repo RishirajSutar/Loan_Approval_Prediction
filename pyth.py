@@ -1,6 +1,7 @@
 #!C:\Users\Lenovo\AppData\Local\Programs\Python\Python37-32\python.exe
 
 import pandas as pd
+pip install sklearn
 from sklearn.linear_model import LogisticRegression
 import numpy as np
 
