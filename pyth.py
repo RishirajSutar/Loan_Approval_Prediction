@@ -4,6 +4,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 import numpy as np
 
+
 data = pd.read_csv("train_u6lujuX_CVtuZ9i.csv")
 data['Education'] = data['Education'].replace(['Graduate', 'Not Graduate'] , [1.0 , 0.0])
 mode_value = data['Education'].mode()[0]
