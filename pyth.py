@@ -106,5 +106,3 @@ import pickle
 warnings.filterwarnings("ignore")
 
 pickle.dump(logisticRegr,open('model.pkl','wb'))
-
-model = pickle.load(open('model.pkl','rb'))
